@@ -1,0 +1,49 @@
+{
+  "name": "wf-manage",
+  "version": "1.0.0",
+  "description": "运营平台",
+  "main": "",
+  "dependencies": {
+    "vue": "^2.1.4",
+    "vue-router": "^2.1.1",
+    "vuex": "^2.0.0",
+    "webpack": "^1.15.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.aiwufu.com:3000/wufu/wf-manage.git"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.0",
+    "babel-helper-vue-jsx-merge-props": "^2.0.1",
+    "babel-loader": "^6.2.7",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "babel-plugin-transform-vue-jsx": "^3.1.1",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "clean-webpack-plugin": "^0.1.9",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.17.0",
+    "open-browser-webpack-plugin": "0.0.2",
+    "postcss-loader": "^0.9.1",
+    "purecss": "^0.6.0",
+    "purifycss-webpack-plugin": "^2.0.3",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-merge": "^0.14.0",
+    "webpack-validator": "^2.1.2"
+  },
+  "scripts": {
+    "build": "webpack  --profile --progress --colors --display-error-details",
+    "dev": "webpack  --display-modules --profile --progress --colors --display-error-details",
+    "dev-hrm": "webpack-dev-server"
+  },
+  "author": "hsw",
+  "license": "ISC"
+}
